@@ -13,8 +13,8 @@ Setup:
 
 ## Project Structure
 Our project consists of four main parts, including processing,pre-data,model, cost evaluation. 
-* Coding part [processing](https://github.com/yangmanST/Graph-Storage/tree/master/processing) is responsible for extracting features from the graph workload, graph data, graph storage solution. Users could run the main program to obtain the unlabeled samples [initial](https://github.com/yangmanST/Graph_Storage/tree/master/dataset/initial).
-* Labeling part [pre_data](https://github.com/yangmanST/graph_storage/blob/master/pre_data) is used to label the sample.Package [preprocesing](https://github.com/yangmanST/Graph-Storage/tree/master/pre_data) into a jar package, and then run in the ubuntu shell with the command "java -jar pre_data.jar" to label the sample。
+* Coding part [processing](https://github.com/yangmanST/Graph-Storage/tree/master/processing) is responsible for extracting features from the graph workload, graph data, graph storage solution. Users could run the main program to obtain the unlabeled samples.
+* Labeling part [pre_data](https://github.com/yangmanST/Graph_Storage/tree/master/pre_data) is used to label the sample.Package [preprocesing](https://github.com/yangmanST/Graph-Storage/tree/master/pre_data) into a jar package, and then run in the ubuntu shell with the command "java -jar pre_data.jar" to label the sample.
 * After obtaining some labeled data, we utilize the train part which in the  directory [model](https://github.com/yangmanST/Graph-Storage/tree/master/model) to achieve complete the active learning.
 
 * Finally, we test the active learning performance, deep classifiers comparisons and time efficiency  using the [cost_evalution](https://github.com/yangmanST/Graph-Storage/tree/master/cost_evaluation). Read the log.txt to check the experiment results.
